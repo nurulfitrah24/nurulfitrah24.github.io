@@ -1,0 +1,32 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.bluechef {
+background-color: #;
+}
+.bluechef-text {
+color: #d35d6e;
+}
+.collection a.collection-item {
+color: #d35d6e;
+}
+.collection a.collection-item {
+  display: block;
+  -webkit-transition: .25s;
+  transition: .25s;
+  color: #d35d6e;
+}
+.body {
+  background-color: #pink;
+}

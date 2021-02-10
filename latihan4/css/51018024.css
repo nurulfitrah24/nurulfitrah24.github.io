@@ -1,0 +1,43 @@
+body {
+  background-color:#ffc0cb;
+  color: #000000;
+  font-family: monospace;
+}
+
+a:link, a:visited {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0;
+  font-weight: bold;
+}
+
+.heading {
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+  border-width: 2px 0;
+
+}
+.link {
+list-style-type: none;
+}
+
+.menu {
+width: 300px;
+background-color: #fa8072;
+margin: 5px;
+margin-left: auto;
+margin-right: auto;
+padding: 5px;
+text-align: center;
+border-style: groove;
+
+
+}
+.gambar-resep {
+width: 100%;
+}
