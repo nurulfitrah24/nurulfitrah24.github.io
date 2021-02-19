@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+  <link rel="shortcut icon" href="assets/img/web.ico" type="image/x-icon">
+  <link rel="icon" href="assets/img/web.ico" type="image/x-icon">
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>EVENT TARI TRADISONAL INDONESIA</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-light" style="height:80px;background-color: #ffcc29;">
+      <!-- Navbar content -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="margin-top:-30px;">
+            <img src="assets/img/finall.png" alt="" style="height:115px;">
+            EVENT TARI TRADISONAL INDONESIA
+          </a>
+          </div>
+      </nav>
+
+    <div id="detailtari" style="margin-bottom: 50px;">
+
+    </div>
+
+  <h4><a href="index.html" style="margin-left:140px;">BACK</a></h4>
+
+    <script type="text/javascript" src="js/api.js"></script>
+    <script type="text/javascript" src="js/tari.js"></script>
+
+    <!-- Core theme JS-->
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+        //baca parameter `id` dari URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var id = urlParams.get("id");
+
+        //request data member dari API berdasarkan `id`
+        getTariDetail(id);
+      });
+    </script>
+
+  </body>
+</html>
